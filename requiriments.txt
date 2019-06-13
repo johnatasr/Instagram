@@ -1,0 +1,11 @@
+Dependencies:
+
+
+Nodemon
+Chocolatey
+Yarn
+Mongoose
+Multer
+sharp
+cors
+socket.io
