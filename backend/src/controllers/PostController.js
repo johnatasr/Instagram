@@ -32,7 +32,8 @@ module.exports = {
         })
 
         req.io.emit('post_novo', post); //envia informacao em tempo real pela aplicacao
-        
+
+       
         return res.json(post);
     }
 };   

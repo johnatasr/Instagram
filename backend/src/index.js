@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');       // dependencias
-const cors = require('cors')
+const cors = require('cors');
 
 const app = express();
 
@@ -22,4 +22,4 @@ app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads', 'resiz
 
 app.use(require('./routes'));
 
-server.listen(3333);
+app.listen(3333);
